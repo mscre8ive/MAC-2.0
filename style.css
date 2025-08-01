@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 30px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.flyer-container {
+  position: relative;
+  display: inline-block;
+}
+
+.flyer-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.name-overlay {
+  position: absolute;
+  top: 85px; /* Adjust this based on your image */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+input[type="text"] {
+  margin-top: 20px;
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #e05500;
+}
